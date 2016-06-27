@@ -30,11 +30,6 @@ function init() {
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize(window.innerWidth, window.innerHeight);
 	document.body.appendChild(renderer.domElement);
-
-
-
-
-
 }
 
 
@@ -46,7 +41,6 @@ function animate() {
 
 //re-paints or creates the world upon request and updates the camera view
 function render() {
-
 				renderer.render(scene, camera);
 }
 
